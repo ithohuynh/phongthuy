@@ -111,7 +111,8 @@ jQuery(divpopup).attr('id', 'myModalthanh');
 jQuery(divpopup).attr('class', 'thanhfaceseo-modal');
 jQuery( "body" ).append(divpopup);
 var titleform='Đăng ký Form';
-var urlform="https://docs.google.com/forms/d/e/1FAIpQLSfLmBC0f3ipvca5eZeH48HotuzHmbF96XAMhjaMhOFKjmerRg/formResponse";
+// var urlform="https://docs.google.com/forms/d/e/1FAIpQLSfLmBC0f3ipvca5eZeH48HotuzHmbF96XAMhjaMhOFKjmerRg/formResponse";
+var urlform="https://forms.gle/93oiMKiAt2bqLsjy9";
 var urlchuyen=window.location.href;
 var hovaten="417205409";
 var dienthoai="386165074";
@@ -139,7 +140,7 @@ jQuery("#myModalthanh").html(formdiv);
 function thanhxet(){
 
 if(submittedform) {
-	window.location="https://faceseo.vn";
+	window.location="https://thayphongthuy.vn";
 var linkhientai=window.location;
 if(getCookie(linkhientai)){
                 	
